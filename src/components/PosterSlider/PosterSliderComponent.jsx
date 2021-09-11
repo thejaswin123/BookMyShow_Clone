@@ -15,6 +15,7 @@ const PosterSlider = (props) => {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
+                    initialSlide: 0,
                     infinite: true,
                 },
             },
@@ -23,7 +24,8 @@ const PosterSlider = (props) => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2,
+                    initialSlide: 0,
+                    infinite: true
                 },
             },
             {
@@ -31,6 +33,8 @@ const PosterSlider = (props) => {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
+                    initialSlide: 0,
+                    infinite: true
                 },
             },
         ],

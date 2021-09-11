@@ -43,6 +43,7 @@ const EntertainmentCardSlider = () => {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 2,
+                    InitialSlide: 0,
                     infinite: true,
                 },
             },
@@ -51,7 +52,8 @@ const EntertainmentCardSlider = () => {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
-                    InitialSlide: 1,
+                    InitialSlide: 0,
+                    infinite: true,
                 },
             },
             {
@@ -59,6 +61,8 @@ const EntertainmentCardSlider = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    InitialSlide: 0,
+                    infinite: true,
                 },
             },
         ],

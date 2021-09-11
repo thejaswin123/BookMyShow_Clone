@@ -5,7 +5,7 @@ export default function PaymentModal({ isOpen, setIsOpen, price }) {
     function closeModal() {
         setIsOpen(false);
     }
-
+    
     const launchRazorPay = () => {
         let options = {
             key: 'rzp_test_G64rCeyXmgRsGb',
@@ -89,7 +89,7 @@ export default function PaymentModal({ isOpen, setIsOpen, price }) {
                                         className="inline-flex justify-center w-full px-4 py-2 mt-3 text-sm font-medium text-red-700 bg-red-100 border border-transparent rounded-md "
                                         onClick={closeModal}
                                     >
-                                        Cancle Payment
+                                        Cancel Payment
                                     </button>
                                 </div>
                             </div>

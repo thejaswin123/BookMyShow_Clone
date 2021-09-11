@@ -59,6 +59,7 @@ const MoviePage = () => {
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 3,
+                    initialSlide: 0,
                     infinite: true,
                 },
             },
@@ -67,7 +68,8 @@ const MoviePage = () => {
                 settings: {
                     slidesToShow: 5,
                     slidesToScroll: 2,
-                    initialSlide: 2,
+                    initialSlide: 0,
+                    infinite: true,
                 },
             },
             {
@@ -75,6 +77,8 @@ const MoviePage = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    initialSlide: 0,
+                    infinite: true,
                 },
             },
         ],
@@ -92,6 +96,7 @@ const MoviePage = () => {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
+                    initialSlide: 0,
                     infinite: true,
                 },
             },
@@ -100,7 +105,8 @@ const MoviePage = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2,
+                    initialSlide: 0,
+                    infinite: true,
                 },
             },
             {
@@ -108,6 +114,8 @@ const MoviePage = () => {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
+                    initialSlide: 0,
+                    infinite: true,
                 },
             },
         ],
